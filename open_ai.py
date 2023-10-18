@@ -5,7 +5,7 @@ import os
 
 #%%
 
-openai.api_key = os.getenv('OAI_key')
+openai.api_key = os.getenv('OAI_Key')
 
 messages = [
     {"role": "system", "content": "You are a helpful assistant."},
